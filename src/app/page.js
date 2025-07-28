@@ -1,6 +1,13 @@
 import HeroSection from "@/components/HeroSection";
-import Navbar from "@/components/Navbar";
+import StepForStudent from "@/components/StepForStudent";
+import WeBuiltInupGro from "@/components/WeBuiltInupGro";
 
 export default function Home() {
-  return <HeroSection />;
+  return (
+    <>
+      <HeroSection />
+      <WeBuiltInupGro />
+      <StepForStudent />
+    </>
+  );
 }
