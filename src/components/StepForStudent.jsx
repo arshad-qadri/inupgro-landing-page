@@ -29,16 +29,16 @@ const StepForStudent = () => {
           numColor="text-[#177cef]"
         />
       </div>
-      <div className="bg-[#E7F2FD]">
+      <div className="bg-[#E7F2FD] py-8">
         <div className="grid grid-cols-[40%_auto] p-4 font-semibold text-[14px] leading-[20px] tracking-[1px] uppercase">
           <div className="flex justify-between">
             <span>03</span> <span className="uppercase">Steps to join</span>
           </div>
           <div className="text-end">/07</div>
         </div>
-        <div className="grid grid-cols-[40%_auto]">
-          <div className="h-[90vh] flex justify-center items-center ">
-            <div className=" w-[350px] bg-[#177CEF] rounded-3xl overflow-hidden border-2 border-[#177CEF]">
+        <div className="grid xl:grid-cols-[40%_auto] md:grid-cols-[36%_auto] grid-cols-1 p-2 md:gap-y-0 gap-y-20">
+          <div className="h-max flex justify-center items-center ">
+            <div className=" lg:w-[350px] w-[300px] bg-[#177CEF] rounded-3xl overflow-hidden border-2 border-[#177CEF]">
               <div className="flex justify-between items-center px-4">
                 <div className="font-semibold text-[25px] leading-[36px] tracking-[-0.02em] align-middle text-white py-2">
                   5 Steps for{" "}
@@ -56,7 +56,7 @@ const StepForStudent = () => {
                   alt="medal"
                 />
               </div>
-              <div className="w-full min-h-88 bg-white py-8 px-12">
+              <div className="w-full min-h-88 bg-white py-8 lg:px-12 px-8">
                 <div className="w-full min-h-60  h-full border-l-2 border-[#177CEF] relative z-0">
                   {/* step1 */}
                   <div className="absolute -left-[15px] -top-1 z-1000 flex justify-start items-center gap-x-4 ">
@@ -162,14 +162,14 @@ const StepForStudent = () => {
               </div>
             </div>
           </div>
-          <div className="h-[90vh] flex justify-center items-center ">
-            <div className="w-8/12 h-65 rounded-2xl bg-[#B7D7FA] relative">
-              <div className="absolute w-full h-full rounded-2xl bg-[#88BCF7] -left-4 -top-4 z-10"></div>
-              <div className="absolute w-full h-full rounded-2xl bg-[#0F6CD7] -left-8 -top-8 z-20 flex justify-center items-center flex-col p-6">
-                <h1 className="text-[36px] text-white">
+          <div className=" flex justify-center items-center  ">
+            <div className="lg:w-8/12 w-10/12 h-65 rounded-2xl bg-[#B7D7FA] relative">
+              <div className="absolute w-full h-full rounded-2xl bg-[#88BCF7] md:-left-4 -left-2 md:-top-4 -top-2 z-10"></div>
+              <div className="absolute w-full h-full rounded-2xl bg-[#0F6CD7] md:-left-8 -left-4  md:-top-8 -top-4 z-20 flex justify-center items-center flex-col p-6">
+                <h1 className="md:text-[36px] text-2xl  text-white">
                   Whether you're learning, teaching, or managing a school
                 </h1>
-                <p className="text-white text-lg">
+                <p className="text-white md:text-lg text-sm mt-1">
                   we simplify your journey with clear, guided steps that load as
                   you scroll. Hover to explore details in real-time.
                 </p>
