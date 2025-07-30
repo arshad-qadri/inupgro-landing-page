@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="grid md:grid-cols-[250px_auto] grid-cols-1 my-2 pb-10 border-b border-[#E2E8F0]">
+      <div className="grid md:grid-cols-[250px_auto] grid-cols-1 mm-2 mt-6 pb-10 border-b border-[#E2E8F0]">
         <div className="px-6">
           <div className="flex justify-between items-center  ">
             {icons.map((icon, index) => (
@@ -253,7 +253,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-sm mb-2 mt-8">Copyleft © [what year is this]</div>
+      <div className="text-sm mb-2 mt-8">Copyleft © 2025</div>
       <p className="text-sm">
         Built with purpose, passion, and way too much coffee.
       </p>

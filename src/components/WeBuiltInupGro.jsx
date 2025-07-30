@@ -89,7 +89,7 @@ const WeBuiltInupGro = () => {
           </button>
           <button
             onClick={() => scroll("left")}
-            className="rounded-full p-2 bg-[#F1F5F9]"
+            className="rounded-full w-11 h-11 flex justify-center items-center  bg-[#F1F5F9]"
           >
             <Image
               src="/images/arrow-left.png"
@@ -100,7 +100,7 @@ const WeBuiltInupGro = () => {
           </button>
           <button
             onClick={() => scroll("right")}
-            className="rounded-full p-2 bg-[#F1F5F9]"
+            className="rounded-full w-11 h-11 flex justify-center items-center bg-[#F1F5F9]"
           >
             <Image
               src="/images/arrow-right.png"
@@ -116,7 +116,7 @@ const WeBuiltInupGro = () => {
       <div className="px-4 md:px-10 py-6">
         <div
           ref={sliderRef}
-          className="flex gap-4 overflow-x-auto scroll-smooth no-scrollbar"
+          className="flex gap-4 overflow-x-auto scroll-smooth [&::-webkit-scrollbar]:hidden"
         >
           {webuiltCards.map((item, index) => (
             <div key={index} className="flex-shrink-0 w-[280px] md:w-[320px]">
